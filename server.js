@@ -38,7 +38,7 @@ app.get("/api/ofertas", (req, res) => {
 });
 
 // 🔁 Rota genérica de redirecionamento com afiliado
-app.get("/api/comprar/:loja", (req, res) => {
+app.get("/api/comprar/:loja", (req, res) => { 
   const { loja } = req.params;
 
   const baseUrl = lojas[loja];
