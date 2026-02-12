@@ -7,7 +7,6 @@ const PORT = 3000;
 app.use(cors());
 app.use(express.json());
 
-// 🔑 SEU ID DE AFILIADO SHOPEE (MUDA SÓ AQUI)
 const AFILIADO_ID = 18353990393;
 
 // 🏷️ Marcas e categorias populares na Shopee
